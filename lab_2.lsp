@@ -2,5 +2,8 @@
 ( setq b'(7 8 3))
 ( setq c'(2((8)3 4 1 6)))
 
+(write (cons 1 2))
+(terpri)
+
 (car '(car (car (cdr (a)))))
 (print a)
